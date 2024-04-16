@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "nombre":"Luna",
+        "url": "luna.jpg",
+        "edad": 2,
+        "especie": "perro",
+        "descripcion": "Luna es una perra cariñosa y juguetona. Le encanta correr en el parque y jugar con otros perros"
+    },
+
+    {
+        "id":2,
+        "nombre":"Simba",
+        "url": "simba.jpg",
+        "edad": 3,
+        "especie": "gato",
+        "descripcion": "Simba es un gato tranquilo y afectuoso. Le gusta pasar las tardes tomando siestas al sol y recibir caricias. Es un excelente compañero"
+    },
+
+    {
+        "id":3,
+        "nombre":"Rocky",
+        "url": "rocky.jpg",
+        "edad": 1,
+        "especie": "conejo",
+        "descripcion": "Rocky es un conejo curioso y enérgico. Le encanta explorar su entorno y jugar con juguetes. Es muy sociable y le gusta recibir atención de su familia humana"
+    },
+
+    {
+        "id":4,
+        "nombre":"Max",
+        "url": "max.jpg",
+        "edad": 4,
+        "especie": "perro",
+        "descripcion": "Max es un perro leal y protector. Es muy activo y le gusta salir a pasear y jugar al aire libre" 
+    },
+
+    {
+        "id":5,
+        "nombre":"Coco",
+        "url": "coco.jpg",
+        "edad": 1,
+        "especie": "huron",
+        "descripcion": "Coco es un huron juguetón y curioso. Le gusta investigar cada rincón de su hogar. Es una mascota inteligente que necesita estimulación mental y física regularmente"
+    }
+]

@@ -12,5 +12,6 @@ const home =() => (
     <img  className="imagenes" src={principal}></img>   
     </div>                      
   </section>
+  
 )
 export default home 

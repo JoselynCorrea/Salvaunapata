@@ -4,6 +4,9 @@ a:hover, nav a:hover, .seccion1 a:hover{
 html{
   height: 100%;
 }
+h2 {
+  color: #b96fa3;
+}
 .fuente{
   display: flex;
   flex-direction: column;
@@ -11,6 +14,7 @@ html{
   font-family:courier new;
   margin: 0;
   min-height: 100%;
+  align-items: center;
   }
 
 #menu{
@@ -47,24 +51,23 @@ html{
   margin-top:30px;
   padding:10px 5px 10px 5px;
   text-align: center;
+  font-size: 35px;
 }
-.mascotas{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  
-}
+
 .mascota{
-  display: grid;
-  /* grid-template-columns: max-content; */
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: max-content; 
   text-align: center;
   justify-content: space-evenly;
   align-items: center;
   align-content: space-evenly;
   justify-items: center;
+  margin: 40px 15px 0px 15px;
 }
 .imgprod{
-  width: 150px;
-  height: 150px;
+  width: 400px;
+  height: 250px;
 }
 .licontacto{
   display: flex;
@@ -78,7 +81,28 @@ html{
   height: 45px;
 }
 
+.testimonio {
+  background-color: rgb(240, 229, 229);
+  opacity:0.65;
+  width:55%;
+  margin-top: 50px;
+  padding: 10px 15px 10px 15px;
+}
+.banner {
+  background-color: #f8e71c;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
 
+
+.banner h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.negritas{
+  font-weight: bold;
+}
 
 @media only screen and (max-width: 700px){
 
@@ -110,7 +134,7 @@ html{
   }
   .seccion1{
       margin-top:15px;
-  }       
+  }   
   
   
   }
