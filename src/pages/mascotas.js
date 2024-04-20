@@ -48,7 +48,7 @@ function Mascotas() {
      
 
       <div>
-        <div >
+        <div className='mascotas' >
           {
             filtro &&
             filtro.map((item, i) => (
